@@ -1,0 +1,107 @@
+﻿@using Invoicing.DataAccess.Entities;
+@model InvoiceViewModel
+
+<div class="row">
+    <div class="col-5">
+        <h3>Invoices for @Model.ActiveCustomer?.Name</h3>
+        <h5 class="pt-3">Address: @Model.ActiveCustomer?.Address1</h5>
+        <h3 class="pt-5">Invoices</h3>
+        
+        <table class="table table-bordered table-striped" id="invoices">
+            <thead>
+                <tr>
+                    <th>Invoice #</th>
+                    <th>Due Date</th>
+                    <th>Amount paid</th>
+                </tr>
+            </thead>
+            <tbody>
+        @foreach(var invoice in Model.Invoices)
+        {
+            <tr>
+                <td><a asp-action="GetInvoiceLineItem" asp-route-invoiceId="@invoice?.InvoiceId" asp-route-customerId="@invoice?.Customer?.CustomerId"> @invoice.InvoiceId</a></td>
+                <td>@invoice.InvoiceDueDate?.ToString("d")</td>
+                <td>@invoice.PaymentTotal</td>
+            </tr>
+        }</tbody>
+        </table>
+         
+        <div>
+            <form asp-controller="Customer" asp-action="AddInvoice" asp-route-customerId="@Model.ActiveCustomer.CustomerId" method="post">
+                <div class="form-group col-6">
+                    <label asp-for="@Model.NewInvoice.InvoiceDate">Date:</label>
+                    <input type="datetime" asp-for="@Model.NewInvoice.InvoiceDate" class="form-control" value="@Model.NewInvoice?.InvoiceDate" />
+                </div>
+                <div class="form-group col-6">
+                    <label asp-for="@Model.NewInvoice.PaymentTermsId">Terms:</label>
+                    <select asp-for="@Model.NewInvoice.PaymentTermsId" class="form-control">
+                        <option value="">Select a payment term...</option>
+                        @foreach (PaymentTerms p in Model.PaymentTermsList)
+                        {
+                            <option value="@p.PaymentTermsId">@p.Description</option>
+                        }
+                    </select>
+                    <input type="hidden" asp-for="@Model.NewInvoice.CustomerId " />
+                </div>
+                <button type="submit" class="btn btn-primary mt-2">Add Invoice</button>
+            </form>
+        </div>
+    </div>
+        
+    <div class="col-1"></div>
+
+    <div class="col-5">
+        <h2>
+            <a asp-controller="Customer" asp-action="List" asp-route-filterFrom="A" asp-route-filterTo="E">View All Customers</a>
+        </h2>
+        <form asp-controller="Customer" asp-action="GetInvoiceLineItems" asp-route-customerId="@Model.ActiveCustomer.CustomerId" asp-route-invoiceId="@Model.SelectedInvoice?.InvoiceId" method="get"> 
+            </br></br></br></br><br />
+            <h3>Term : @Model.SelectedInvoice?.PaymentTerms?.Description.Substring(8,7)</h3>
+            <h6>Line Items for Invoice @Model.SelectedInvoice?.InvoiceId</h6>
+            <table class="table table-bordered table-striped" id="invoices">
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.SelectedInvoice?.InvoiceLineItems?.Count > 0)
+                    {
+                        @foreach (var i in Model?.SelectedInvoice?.InvoiceLineItems)
+                        {
+                            <tr>
+                                <td>@i.Description</td>
+                                <td>@i.Amount</td>
+
+                            </tr>
+                        }
+                    }
+                    
+                </tbody>
+            </table>
+            
+        </form>
+        
+            <form asp-controller="Customer" asp-action="AddLineItem" asp-route-customerId="@Model.ActiveCustomer?.CustomerId" asp-route-invoiceId="@Model.SelectedInvoice?.InvoiceId" method="post">
+            
+            <div class="form-group col-6">
+                <label>Description:</label>
+                <input type="text" class="form-control" asp-for="@Model.SelectedPaymentTerms.Description"  value="" />
+            </div>
+            <div class="form-group col-6">
+                <label>Amount:</label>
+                <input type="text" class="form-control" asp-for="@Model.SelectedPaymentTerms.Amount" value="" />
+            </div>
+                    
+            <input type="hidden" asp-for="@Model.SelectedPaymentTerms.InvoiceLineItemId " />
+            </>
+            <button type="submit" class="btn btn-primary mt-2">Add Line Item</button>
+                    </form>
+        
+        
+
+    </div>
+</div>
+  

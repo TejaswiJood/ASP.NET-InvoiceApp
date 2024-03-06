@@ -1,0 +1,64 @@
+﻿@model CustomerViewModel
+@{
+	ViewData["Title"] = "Edit a Customer";
+}
+<h1>@ViewData["Title"]</h1>
+
+<form method="post" asp-route-customerId="@Model.ActiveCustomer.CustomerId" asp-action="Edit">
+
+@*    <partial name="_CustomerFormPartial" model="@Model.ActiveCustomer"/>
+ *@    <input type="hidden" asp-for="ActiveCustomer.CustomerId" />
+
+    <div class="mb-3">
+        <label class="form-label" asp-for="ActiveCustomer.Name">Name</label>
+        <span class="text-danger" asp-validation-for="ActiveCustomer.Name"></span>
+        <input class="form-control" type="text" asp-for="ActiveCustomer.Name" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="ActiveCustomer.Address1">Address1</label>
+        <span class="text-danger" asp-validation-for="ActiveCustomer.Address1"></span>
+        <input class="form-control" type="text" asp-for="ActiveCustomer.Address1" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="ActiveCustomer.Address2">Address2</label>
+        <span class="text-danger" asp-validation-for="ActiveCustomer.Address2"></span>
+        <input class="form-control" type="text" asp-for="ActiveCustomer.Address2" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="ActiveCustomer.City">City</label>
+        <span class="text-danger" asp-validation-for="ActiveCustomer.City"></span>
+        <input class="form-control" type="text" asp-for="ActiveCustomer.City" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="ActiveCustomer.ProvinceOrState">ProvinceOrState</label>
+        <span class="text-danger" asp-validation-for="ActiveCustomer.ProvinceOrState"></span>
+        <input class="form-control" type="text" asp-for="ActiveCustomer.ProvinceOrState" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="ActiveCustomer.ZipOrPostalCode">ZipOrPostalCode</label>
+        <span class="text-danger" asp-validation-for="ActiveCustomer.ZipOrPostalCode"></span>
+        <input class="form-control" type="text" asp-for="ActiveCustomer.ZipOrPostalCode" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="ActiveCustomer.Phone">Phone</label>
+        <span class="text-danger" asp-validation-for="ActiveCustomer.Phone"></span>
+        <input class="form-control" type="text" asp-for="ActiveCustomer.Phone" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="ActiveCustomer.ContactFirstName">First Name</label>
+        <span class="text-danger" asp-validation-for="ActiveCustomer.ContactFirstName"></span>
+        <input class="form-control" type="text" asp-for="ActiveCustomer.ContactFirstName" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="ActiveCustomer.ContactLastName">Last Name</label>
+        <span class="text-danger" asp-validation-for="ActiveCustomer.ContactLastName"></span>
+        <input class="form-control" type="text" asp-for="ActiveCustomer.ContactLastName" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="ActiveCustomer.ContactEmail">Email</label>
+        <span class="text-danger" asp-validation-for="ActiveCustomer.ContactEmail"></span>
+        <input class="form-control" type="text" asp-for="ActiveCustomer.ContactEmail" />
+    </div> 
+	<input class="btn btn-primary" type="submit" value="Edit"/>
+	<a class="btn btn-secondary" asp-controller="Customer" asp-action="List" asp-route-filterFrom="A" asp-route-filterTo="E">Cancel</a>
+</form>

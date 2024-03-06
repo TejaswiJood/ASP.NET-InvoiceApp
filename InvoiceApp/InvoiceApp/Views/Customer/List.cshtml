@@ -1,0 +1,56 @@
+﻿@model CustomersViewModel
+@{
+	ViewData["Title"] = "All Customers";
+}
+<h1>@ViewData["Title"]</h1>
+
+
+<a asp-controller="Customer" asp-action="Add">Add a customer</a>
+
+
+@if (Model.Customers?.Count > 0)
+{
+	<table class="table table-bordered table-hover">
+		<thead>
+		<th>Name</th>
+		<th>Address</th>
+		<th>Actions</th>
+		</thead>
+		<tbody>
+			@foreach (var customer in Model.Customers)
+			{
+				<tr>
+					<td>@customer.Name</td>
+					<td>@customer.Address1</td>
+					<td>
+						<a asp-controller="Customers" asp-action="Invoice"
+						   asp-route-id="@customer.CustomerId"
+						   >Invoices</a>
+
+						<span class="mx-1">|</span>
+
+						<a asp-controller="Customers" asp-route-id="@customer.CustomerId" asp-action="Edit">Edit</a>
+
+						<span class="mx-1">|</span>
+
+						<a asp-controller="Customers" asp-route-id="@customer.CustomerId" asp-action="Delete">Delete</a>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+
+	<nav>
+		<ul class="pagination">
+			<li class="page-item"><a class="page-link" asp-controller="Customer" asp-action="List" asp-route-filterFrom="A" asp-route-filterTo="E">A-E</a></li>
+			<li class="page-item"><a class="page-link" asp-controller="Customer" asp-action="List" asp-route-filterFrom="F" asp-route-filterTo="K">F-K</a></li>
+			<li class="page-item"><a class="page-link" asp-controller="Customer" asp-action="List" asp-route-filterFrom="L" asp-route-filterTo="R">L-R</a></li>
+			<li class="page-item"><a class="page-link" asp-controller="Customer" asp-action="List" asp-route-filterFrom="S" asp-route-filterTo="Z">S-Z</a></li>
+
+		</ul>
+	</nav>
+}
+else
+{
+	<p>Add a Customer</p>
+}

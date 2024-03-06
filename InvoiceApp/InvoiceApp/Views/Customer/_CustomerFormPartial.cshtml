@@ -1,0 +1,53 @@
+﻿@using Invoicing.DataAccess.Entities;
+@model Customer
+<div class="mb-3">
+    <label class="form-label" asp-for="Name">Name</label>
+    <span class="text-danger" asp-validation-for="Name"></span>
+    <input class="form-control" type="text" asp-for="Name" />
+</div>
+<div class="mb-3">
+    <label class="form-label" asp-for="Address1">Address1</label>
+    <span class="text-danger" asp-validation-for="Address1"></span>
+    <input class="form-control" type="text" asp-for="Address1" />
+</div>
+<div class="mb-3">
+    <label class="form-label" asp-for="Address2">Address2</label>
+    <span class="text-danger" asp-validation-for="Address2"></span>
+    <input class="form-control" type="text" asp-for="Address2" />
+</div>
+<div class="mb-3">
+    <label class="form-label" asp-for="City">City</label>
+    <span class="text-danger" asp-validation-for="City"></span>
+    <input class="form-control" type="text" asp-for="City" />
+</div>
+<div class="mb-3">
+    <label class="form-label" asp-for="ProvinceOrState">ProvinceOrState</label>
+    <span class="text-danger" asp-validation-for="ProvinceOrState"></span>
+    <input class="form-control" type="text" asp-for="ProvinceOrState" />
+</div>
+<div class="mb-3">
+    <label class="form-label" asp-for="ZipOrPostalCode">ZipOrPostalCode</label>
+    <span class="text-danger" asp-validation-for="ZipOrPostalCode"></span>
+    <input class="form-control" type="text" asp-for="ZipOrPostalCode" />
+</div>
+<div class="mb-3">
+    <label class="form-label" asp-for="Phone">Phone</label>
+    <span class="text-danger" asp-validation-for="Phone"></span>
+    <input class="form-control" type="text" asp-for="Phone" />
+</div>
+<div class="mb-3">
+    <label class="form-label" asp-for="ContactFirstName">First Name</label>
+    <span class="text-danger" asp-validation-for="ContactFirstName"></span>
+    <input class="form-control" type="text" asp-for="ContactFirstName" />
+</div>
+<div class="mb-3">
+    <label class="form-label" asp-for="ContactLastName">Last Name</label>
+    <span class="text-danger" asp-validation-for="ContactLastName"></span>
+    <input class="form-control" type="text" asp-for="ContactLastName" />
+</div>
+<div class="mb-3">
+    <label class="form-label" asp-for="ContactEmail">Email</label>
+    <span class="text-danger" asp-validation-for="ContactEmail"></span>
+    <input class="form-control" type="text" asp-for="ContactEmail" />
+</div>
+

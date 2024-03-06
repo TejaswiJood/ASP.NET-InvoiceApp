@@ -1,0 +1,48 @@
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\week 12\InvoiceApp\Invoicing.DataAccess\bin\Debug\net6.0\Invoicing.DataAccess.deps.json
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\week 12\InvoiceApp\Invoicing.DataAccess\bin\Debug\net6.0\Invoicing.DataAccess.dll
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\week 12\InvoiceApp\Invoicing.DataAccess\bin\Debug\net6.0\Invoicing.DataAccess.pdb
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\week 12\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.csproj.AssemblyReference.cache
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\week 12\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\week 12\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.AssemblyInfoInputs.cache
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\week 12\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.AssemblyInfo.cs
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\week 12\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\week 12\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.dll
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\week 12\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\refint\Invoicing.DataAccess.dll
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\week 12\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.pdb
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\week 12\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\ref\Invoicing.DataAccess.dll
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Experiments\InvoiceApp\Invoicing.DataAccess\bin\Debug\net6.0\Invoicing.DataAccess.deps.json
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Experiments\InvoiceApp\Invoicing.DataAccess\bin\Debug\net6.0\Invoicing.DataAccess.dll
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Experiments\InvoiceApp\Invoicing.DataAccess\bin\Debug\net6.0\Invoicing.DataAccess.pdb
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Experiments\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.csproj.AssemblyReference.cache
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Experiments\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Experiments\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.AssemblyInfoInputs.cache
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Experiments\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.AssemblyInfo.cs
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Experiments\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Experiments\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.dll
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Experiments\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\refint\Invoicing.DataAccess.dll
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Experiments\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.pdb
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Experiments\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\ref\Invoicing.DataAccess.dll
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\InvoiceApp\InvoiceApp\Invoicing.DataAccess\bin\Debug\net6.0\Invoicing.DataAccess.deps.json
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\InvoiceApp\InvoiceApp\Invoicing.DataAccess\bin\Debug\net6.0\Invoicing.DataAccess.dll
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\InvoiceApp\InvoiceApp\Invoicing.DataAccess\bin\Debug\net6.0\Invoicing.DataAccess.pdb
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\InvoiceApp\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.csproj.AssemblyReference.cache
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\InvoiceApp\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\InvoiceApp\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.AssemblyInfoInputs.cache
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\InvoiceApp\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.AssemblyInfo.cs
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\InvoiceApp\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\InvoiceApp\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.dll
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\InvoiceApp\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\refint\Invoicing.DataAccess.dll
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\InvoiceApp\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.pdb
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\InvoiceApp\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\ref\Invoicing.DataAccess.dll
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\Assignment3TJ\InvoiceApp\Invoicing.DataAccess\bin\Debug\net6.0\Invoicing.DataAccess.deps.json
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\Assignment3TJ\InvoiceApp\Invoicing.DataAccess\bin\Debug\net6.0\Invoicing.DataAccess.dll
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\Assignment3TJ\InvoiceApp\Invoicing.DataAccess\bin\Debug\net6.0\Invoicing.DataAccess.pdb
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\Assignment3TJ\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.csproj.AssemblyReference.cache
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\Assignment3TJ\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\Assignment3TJ\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.AssemblyInfoInputs.cache
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\Assignment3TJ\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.AssemblyInfo.cs
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\Assignment3TJ\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\Assignment3TJ\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.dll
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\Assignment3TJ\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\refint\Invoicing.DataAccess.dll
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\Assignment3TJ\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\Invoicing.DataAccess.pdb
+C:\Users\tejas\OneDrive\Desktop\Semester 3\Microsoft Web Technology\Assignment3\Assignment3TJ\InvoiceApp\Invoicing.DataAccess\obj\Debug\net6.0\ref\Invoicing.DataAccess.dll
